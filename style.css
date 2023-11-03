@@ -190,6 +190,8 @@ button {
   background-color: #e2e8f0;
   display: grid;
   grid-template-columns: 5fr 2fr;
+  gap: 15px;
+  padding: 30px 25px 60px 15px;
 }
 
 .projects {
@@ -198,4 +200,38 @@ button {
 
 h4, p {
   margin: 0;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+  gap: 25px;
+  margin-top: 15px;
+}
+
+.projects-container > div {
+  border-radius: 10px;
+  border-left: 8px solid #f0b429;
+  height: 200px;
+  background-color: white;
+  padding: 30px 20px;
+  font-size: 0.9rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+h4 + p {
+  max-width: 350px;
+  margin-top: 3px;
+}
+
+.main-content img[src$=svg] {
+  width: 23px;
+  height: 23px;
+}
+
+.main-content-icons {
+  display: flex;
+  justify-content: end;
+  gap: 25px;
 }
