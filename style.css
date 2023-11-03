@@ -13,7 +13,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 5fr;
   grid-template-rows: 2fr 9fr;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Temporary border for clarity */
