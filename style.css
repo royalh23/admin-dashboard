@@ -112,11 +112,13 @@ ul {
 }
 
 .header {
+  z-index: 2;
   font-weight: bold;
   display: grid;
   grid-template-rows: 4fr 5fr;
   padding: 8px 0 15px 40px;
   gap: 15px;
+  box-shadow: 0 5px 5px #ccd1d8;
 }
 
 .search {
@@ -165,6 +167,7 @@ ul {
 
 .username {
   font-size: 1.4rem;
+  margin-top: 0.4rem;
 }
 
 .buttons {
@@ -184,5 +187,6 @@ button {
 }
 
 .main-content {
+  z-index: 1;
   background-color: #e2e8f0;
 }
