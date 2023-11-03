@@ -49,7 +49,7 @@ body {
 }
 
 .sidebar .profile::before {
-  background-image: url(./icons/card-account-details.svg);
+  background-image: url(./icons/card-account-details-outline.svg);
 }
 
 .sidebar .messages::before {
