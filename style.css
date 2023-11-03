@@ -97,26 +97,6 @@ ul {
   background-image: url(./icons/shield-check.svg);
 }
 
-.header {
-  display: grid;
-  grid-template-rows: 4fr 5fr;
-}
-
-.search {
-  display: grid;
-  grid-template-columns: auto 1fr auto auto auto; 
-}
-
-.search img[src$=svg] {
-  width: 23px;
-  height: 23px;
-}
-
-.user-controls {
-  display: grid;
-  grid-template-columns: auto 1fr auto auto auto;
-}
-
 .user-img, .large-user-img {
   border-radius: 50%;
 }
@@ -129,4 +109,76 @@ ul {
 .large-user-img {
   width: 70px;
   height: 70px;
+}
+
+.header {
+  font-weight: bold;
+  display: grid;
+  grid-template-rows: 4fr 5fr;
+  padding: 8px 0 15px 40px;
+  gap: 15px;
+}
+
+.search {
+  display: grid;
+  grid-template-columns: 3fr 1fr; 
+  padding-right: 45px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.user-profile {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-items: center;
+}
+
+.search input[type="search"] {
+  flex: 0 1 550px;
+  height: 27px;
+  border-radius: 15px;
+  background-color: #e2e8f0;
+  border: 0;
+}
+
+.search img[src$=svg] {
+  width: 23px;
+  height: 23px;
+}
+
+.user-controls {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.user-greeting {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 20px;
+}
+
+.username {
+  font-size: 1.4rem;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+button {
+  width: 90px;
+  padding: 10px 0;
+  border-radius: 20px;
+  border: 0;
+  background-color: #1992d4;
+  color: white;
+  font-weight: inherit;
 }
