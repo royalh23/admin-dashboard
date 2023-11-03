@@ -277,3 +277,9 @@ hr {
   color: #636363;
   margin-top: 3px;
 }
+
+.projects-container > div,
+.announcements-container,
+.trending-container {
+  box-shadow: 3px 5px 5px #ccd1d8;
+}
