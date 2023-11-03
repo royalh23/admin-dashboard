@@ -10,6 +10,9 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr 5fr;
 }
 
 /* Temporary border for clarity */
@@ -17,4 +20,8 @@ body {
 .header,
 .main-content {
   border: 1px solid;
+}
+
+.sidebar {
+  grid-row: 1 / 3;
 }
