@@ -182,3 +182,7 @@ button {
   color: white;
   font-weight: inherit;
 }
+
+.main-content {
+  background-color: #e2e8f0;
+}
