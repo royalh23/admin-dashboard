@@ -16,6 +16,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+img[src$=svg] {
+  width: 23px;
+  height: 23px;
+}
+
 .sidebar {
   grid-row: 1 / 3;
   background-color: #1992d4;
@@ -148,11 +153,6 @@ ul {
   border: 0;
 }
 
-.search img[src$=svg] {
-  width: 23px;
-  height: 23px;
-}
-
 .user-controls {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -223,11 +223,6 @@ h4, p {
 h4 + p {
   max-width: 350px;
   margin-top: 3px;
-}
-
-.main-content img[src$=svg] {
-  width: 23px;
-  height: 23px;
 }
 
 .main-content-icons {
