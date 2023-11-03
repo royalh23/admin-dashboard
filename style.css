@@ -188,4 +188,10 @@ button {
 
 .main-content {
   background-color: #e2e8f0;
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+}
+
+.projects {
+  grid-row: 1 / 3;
 }
