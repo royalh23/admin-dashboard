@@ -11,3 +11,10 @@ body {
   padding: 0;
   height: 100vh;
 }
+
+/* Temporary border for clarity */
+.sidebar,
+.header,
+.main-content {
+  border: 1px solid;
+}
