@@ -130,6 +130,7 @@ ul {
   display: grid;
   grid-template-columns: 3fr 1fr; 
   padding-right: 45px;
+  gap: 10px;
 }
 
 .search-bar {
@@ -143,6 +144,7 @@ ul {
   grid-template-columns: auto auto auto;
   align-items: center;
   justify-items: center;
+  gap: 10px;
 }
 
 .search input[type="search"] {
@@ -175,7 +177,7 @@ ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  gap: 5px;
+  gap: 10px;
 }
 
 button {
