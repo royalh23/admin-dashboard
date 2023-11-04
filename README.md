@@ -5,3 +5,5 @@ necessary.
 - For the main content, auto-fit property from Grid has been utilized to provide
 a responsive layout for the cards. 
 - SVGs have also been used for scalable and smooth icons. 
+
+The project is live at: https://royalh23.github.io/admin-dashboard/
