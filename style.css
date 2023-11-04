@@ -195,11 +195,6 @@ button {
   padding: 30px 25px 60px 15px;
 }
 
-.trending,
-.projects {
-  align-self: end;
-}
-
 .projects-container > div,
 .announcements-container,
 .trending-container {
